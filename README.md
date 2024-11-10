@@ -1,6 +1,5 @@
 # StreamingData
 
-![alt text](image.png)
 
 Project connects to YouTube API and listens to changes in selected videos' statistics. The architecture includes:
 - Connection to YouTube's API via Google Cloud Platform. 
