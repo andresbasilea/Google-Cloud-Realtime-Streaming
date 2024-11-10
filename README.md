@@ -1,5 +1,8 @@
 # StreamingData
 
+## Architecture diagram:
+
+![alt text]()
 
 Project connects to YouTube API and listens to changes in selected videos' statistics. The architecture includes:
 - Connection to YouTube's API via Google Cloud Platform. 
@@ -9,3 +12,4 @@ Project connects to YouTube API and listens to changes in selected videos' stati
 
 
 - Missing the connection to external system, but the idea would be to connect the KSQL data to an external apps that lets the user know when a change in a YouTube statistic has been made (for example: new comment, new likes, new views).
+
