@@ -4,7 +4,8 @@
 
 ![alt text](Architecture.drawio.png)
 
-Further project documentation can be found on: https://andresbasilea.github.io/Sysyphus/Data-Engineering/Projects/Google-Cloud-Realtime-Streaming
+### Further project documentation can be found on
+https://andresbasilea.github.io/Sysyphus/Data-Engineering/Projects/Google-Cloud-Realtime-Streaming
 
 
 Project connects to YouTube API and listens to changes in selected videos' statistics. The architecture includes:
@@ -14,10 +15,4 @@ Project connects to YouTube API and listens to changes in selected videos' stati
 - Based on code by Yusuf airscholar
 - Missing the connection to external system, but the idea would be to connect the KSQL data to an external apps that lets the user know when a change in a YouTube statistic has been made (for example: new comment, new likes, new views).
 
-<<<<<<< HEAD
-
-- Missing the connection to external system, but the idea would be to connect the KSQL data to an external apps that lets the user know when a change in a YouTube statistic has been made (for example: new comment, new likes, new views).
-
-=======
 Please note that this project is based on the project by airscholar, which can be found at https://github.com/airscholar/YoutubeAnalytics. 
->>>>>>> 8056a6e (changes to readme)
